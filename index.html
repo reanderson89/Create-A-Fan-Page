@@ -73,6 +73,48 @@
         </section>
         <br>
         <br>
+
+        <section id="form">
+            <h2>Please fill out the following form!</h2>
+            <form action="./confirm.html" method="POST">
+                <section id="question1">
+                    <label >Have you ever seen them live?</label>
+                    <label for="seenLiveYes">Yes</label>
+                    <input type="radio" name="seenLive" id="seenLiveYes" value="Yes">
+                    <label for="seenLiveNo">No</label>
+                    <input type="radio" name="seenLive" id="seenLiveNo" value="No">
+                </section>
+                <section id="question2">
+                    <label for="favSong">what is your favorite song?</label>
+                    <input type="text" name="favSong" id="favSong">
+                </section>
+                <section id="question3">
+                    <label for="favAlbum">What is your favorite Album?</label>
+                    <input list="albums" name="favAlbum" id="favAlbum">
+
+                    <datalist id="albums">
+                        <option value="A Favor House Atlantic">
+                        <option value="Welcome Home">
+                        <option value="Shoulders">
+                    </datalist>
+                    
+                </section>
+                <section id="question4">
+                    <label for="numAlbums">How many albums do you own?</label>
+
+                    <select name="numAlbums" id="numAlbums">
+                        <option value="1-5">1-5</option>
+                        <option value="6-10">6-10</option>
+                        <option value="11+">11+</option>
+                    </select>
+                </section>
+                <section>
+                    <input type="submit" value="Submit">
+                </section>
+            </form>
+        </section>
+        <br>
+        <br>
         <br>
         <br>
         <br>
